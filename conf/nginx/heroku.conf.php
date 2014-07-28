@@ -36,7 +36,7 @@ http {
         
         error_log stderr;
         access_log stdout;
-        #access_log /tmp/heroku.nginx_access.<?=getenv('PORT')?:'8080'?>.log;
+        # access_log /tmp/heroku.nginx_access.<?=getenv('PORT')?:'8080'?>.log;
         
         include <?=getenv('HEROKU_PHP_NGINX_CONFIG_INCLUDE')?>;
         
