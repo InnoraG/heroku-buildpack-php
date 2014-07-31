@@ -64,7 +64,7 @@ LD_LIBRARY_PATH=${OUT_PREFIX} ./configure \
         --with-png-dir=/usr \
     --with-gettext=shared,${OUT_PREFIX} \
     --enable-intl=shared \
-    --enable-mbstring \
+    --enable-mbstring=shared \
     --with-mysql=shared \
     --enable-pcntl=shared \
     --enable-shmop=shared \
